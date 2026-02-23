@@ -1,0 +1,95 @@
+/* Full Page Layout */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #1f3c88, #2a5298);
+}
+
+/* Container */
+.auth-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;   /* 🔥 important change */
+  padding: 40px 20px;
+}
+
+/* Card */
+.auth-card {
+  width: 100%;
+  max-width: 500px;          /* 🔥 fixed width */
+  background: #1e2a38;
+  padding: 35px;
+  border-radius: 18px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+/* Headings */
+.auth-card h2 {
+  margin-bottom: 10px;
+  color: white;
+}
+
+.auth-card h3 {
+  color: white;
+  margin: 8px 0;
+}
+
+/* Inputs */
+.auth-card input {
+  width: 100%;
+  padding: 12px;
+  margin-top: 12px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  background: #2f4054;
+  color: white;
+  font-size: 14px;
+}
+
+/* Buttons */
+.auth-card button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 15px;
+  border-radius: 8px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* Trade Button */
+.trade-btn {
+  background: #4CAF50;
+  color: white;
+}
+
+/* Logout Button */
+.logout-btn {
+  background: #ff4d4d;
+  color: white;
+}
+
+/* Watchlist & Portfolio List */
+.auth-card ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 15px;
+}
+
+.auth-card li {
+  background: #2c3e50;
+  padding: 10px;
+  margin-top: 8px;
+  border-radius: 8px;
+  color: white;
+  font-size: 14px;
+}
+
+/* Section Divider */
+hr {
+  border: 0.5px solid #3b4f68;
+  margin: 25px 0;
+}
